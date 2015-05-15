@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<div class="bookmarks">
+  {% for org in site.data.orgs %}
+    <a class="bookmark-tile {{ org.name | downcase }}" href="{{ org.url }}">
+      <span class="icon-{{ org.name | downcase }}"></span>
+    </a>
+  {% endfor %}
+</div>
+
+<label class="toggler icon-cog" for="settings-toggler"></label>

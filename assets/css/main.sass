@@ -1,0 +1,21 @@
+---
+---
+
+@import '1-tools/-tools-index'
+@import '2-base/-base-index'
+@import '3-modules/-modules-index'
+@import '4-pages/-pages-index'
+
+/* Things that need liquid */
+
+{% for org in site.data.orgs %}
+.{{ org.name | downcase }}
+  background-color: ${{ org.name | downcase }}-primary
+.icon-{{ org.name | downcase }}
+  color: ${{ org.name | downcase }}-primary
+{% endfor %}
+
+{% for color in site.data.colors %}
+.{{ color.name }}
+  background-color: {{ color.hex }}
+{% endfor %}

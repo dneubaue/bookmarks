@@ -1,0 +1,36 @@
+.page-content
+  position: absolute
+  top: 0px
+  left: 0px
+  width: 100%
+
+  .bookmarks
+    +outer-container
+    padding-top: 50px
+
+    .bookmark-tile
+      position: relative
+      height: 0
+      padding-bottom: 13.84898% /* == width */
+      border-radius: 50%
+      margin-bottom: 2.35765%
+      +span-columns(1.9)
+
+      +media($tablet)
+        +span-columns(2.9)
+        padding-bottom: 22.37878% /* == width */
+      +media($mobile)
+        +span-columns(3.9)
+        padding-bottom: 30.90859% /* == width */
+
+      span
+        display: block
+        position: absolute
+        top: 50%
+        left: 50%
+        color: white
+        font-size: 60px
+        width: 60px
+        height: 60px
+        margin-top: -30px
+        margin-left: -30px

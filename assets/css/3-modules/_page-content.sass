@@ -1,0 +1,17 @@
+.page-content
+  background-color: white
+  z-index: 1
+  +transition(all 0.2s $ease-in-out-expo)
+  box-shadow: 2px 0 10px #CCC
+  min-height: 100vh
+
+  .bookmarks
+    margin-top: 40px
+
+  .toggler
+    color: #797979
+    font-size: 30px
+    position: fixed
+    top: 30px
+    right: 30px
+    +transition(right 0.2s $ease-in-out-expo, transform 0.5s $ease-in-out-expo)

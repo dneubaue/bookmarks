@@ -1,0 +1,65 @@
+#settings-toggler
+  display: none
+
+  &:checked + .page-content
+    left: -300px
+
+    .toggler
+      right: 330px
+      transform: rotate(-360deg)
+
+.sidebar
+  +position(fixed, 0px 0px null null)
+  width: 300px
+  height: 100vh
+  background-color: white
+  z-index: 0
+  overflow: scroll
+  padding: 20px
+
+  .orgs-table
+
+    .brag-row
+      font-size: 1.2em
+      padding: 12px 0
+      color: #777
+
+    > li
+      font-size: 1.5em
+      border-bottom: 1px solid #CCC
+      height: 56px
+      overflow: hidden
+      +transition(height 0.2s)
+
+      .org-table
+
+        li
+          +display(flex)
+          +justify-content(space-between)
+          +align-items(baseline)
+          padding: 10px 0
+
+          .org-label > span
+            margin-right: 5px
+
+          .options
+            +display(flex)
+            +justify-content(space-between)
+            width: 50px
+
+            [class^="icon-"]
+              margin: 0
+              width: 15px
+              height: 15px
+              font-size: 0.6em
+              cursor: pointer
+
+            .icon-cross
+              color: #e74c3c
+              +transition(all 0.6s $ease-out-expo)
+
+          input
+            height: 36px
+            margin: -10px 0 0 0
+            padding: 0 0 0 5px
+            font-size: 0.7em

@@ -1,0 +1,119 @@
+- name: Twitter
+  url:  https://www.twitter.com/
+
+- name: Facebook
+  url:  https://www.facebook.com/
+
+- name: Instagram
+  url:  https://www.instagram.com/
+
+- name: Google
+  url:  https://www.google.com/
+
+- name: GooglePlus
+  url:  https://www.plus.google.com/
+
+- name: GoogleDrive
+  url:  https://www.drive.google.com/
+
+- name: Ello
+  url:  https://www.ello.co/
+
+- name: YouTube
+  url:  https://www.youtube.com/
+
+- name: Twitch
+  url:  https://www.twitch.com/
+
+- name: Vimeo
+  url:  https://www.vimeo.com/
+
+- name: Lanyrd
+  url:  https://www.lanyrd.com/
+
+- name: Flickr
+  url:  https://www.flickr.com/
+
+- name: Picassa
+  url:  https://www.picasa.google.com/
+
+- name: Dribbble
+  url:  https://www.dribbble.com/
+
+- name: Forrst
+  url:  https://www.forrst.com/
+
+- name: DeviantArt
+  url:  https://www.deviantart.com/
+
+- name: Steam
+  url:  https://www.store.steampowered.com/
+
+- name: DropBox
+  url:  https://www.dropbox.com/
+
+- name: OneDrive
+  url:  https://www.onedrive.com/
+
+- name: GitHub
+  url:  https://www.github.com/
+
+- name: WordPress
+  url:  https://www.wordpress.com/
+
+- name: Joomla
+  url:  https://www.joomla.com/
+
+- name: Blogger
+  url:  https://www.blogger.com/
+
+- name: Tumblr
+  url:  https://www.tumblr.com/
+
+- name: Yahoo
+  url:  https://www.yahoo.com/
+
+- name: Apple
+  url:  https://www.apple.com/
+
+- name: SoundCloud
+  url:  https://www.soundcloud.com/
+
+- name: Skype
+  url:  https://www.skype.com/
+
+- name: Reddit
+  url:  https://www.reddit.com/
+
+- name: LinkedIn
+  url:  https://www.linkedin.com/
+
+- name: Lastfm
+  url:  https://www.last.fm/
+
+- name: Delicious
+  url:  https://www.delicious.com/
+
+- name: StumbleUpon
+  url:  https://www.stumbleupon.com/
+
+- name: StackOverflow
+  url:  https://www.stackoverflow.com/
+
+- name: Pinterest
+  url:  https://www.pinterest.com/
+
+- name: Xing
+  url:  https://www.xing.com/
+
+- name: Flattr
+  url:  https://www.flattr.com/
+
+- name: FourSquare
+  url:  https://www.foursquare.com/
+
+- name: PayPal
+  url:  https://www.paypal.com/
+
+- name: Yelp
+  url:  https://www.yelp.com/

@@ -1,0 +1,8 @@
+- name: white
+  hex:  "#FFF"
+
+- name: chambray
+  hex:  "#3A539B"
+
+- name: honey-flower
+  hex:  "#674172"
